@@ -29,8 +29,28 @@
 //             document.getElementById("res").innerHTML="Login Failed";
 //         }
 // }
-let x=Number("12");
-let str=Number("123");
-let b=Boolean(0)
+// "use strict"
+// let x=Number("12");
+// let str=Number("123");
+// let b=Boolean(0)
 // console.log("12"+"3");
-console.log(b)
+// console.log(b)
+// let num=12;
+// console.log(num)
+// let a=12;
+// let b='12';
+// console.log(a==b);
+// console.log(a===b);
+// let a=(x,y)=>{
+//     console.log(x+y);
+// }
+// let x=a(12,34);
+// let say=()=> console.log("Hello");
+// say();
+function display(){
+let p1= document.querySelector('p');
+        p1.innerHTML='Result';
+        p1.style.backgroundColor='red';
+}
+
+
