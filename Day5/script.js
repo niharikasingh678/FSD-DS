@@ -19,13 +19,18 @@
 // let a;
 // let b=null;
 // console.log(typeof b);
-function validate(){
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-    if(password=="admin" && username=="admin"){
-        document.getElementById("res").innerHTML="Login Success";
-        }
-        else{
-            document.getElementById("res").innerHTML="Login Failed";
-        }
-}
+// function validate(){
+//     var username = document.getElementById("username").value;
+//     var password = document.getElementById("password").value;
+//     if(password=="admin" && username=="admin"){
+//         document.getElementById("res").innerHTML="Login Success";
+//         }
+//         else{
+//             document.getElementById("res").innerHTML="Login Failed";
+//         }
+// }
+let x=Number("12");
+let str=Number("123");
+let b=Boolean(0)
+// console.log("12"+"3");
+console.log(b)
